@@ -1,0 +1,201 @@
+.intro {
+  width: 90%;
+  margin: 8vh auto 5vh auto;
+  text-align: center;
+}
+
+.intro h2 {
+    border-bottom: 4px #5fbd91 solid;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 5px;
+    margin-bottom: 3vh;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.intro h5 {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.main {
+    top: 25%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+}
+
+.navbar {
+  background-color: #e7eaec;
+  padding: 0 !important;
+}
+
+.brand {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+ 
+.brand > img {
+  height: 50px;
+}
+
+.form {
+  background-color: black;
+  padding: 30px 20px;
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.form:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.input {
+  margin-bottom: 5%;
+}
+
+input {
+  border: none;
+  border-radius: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.formBtn {
+  padding: 10px;
+  background: #d9d9d9;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 6px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.formBtn:hover {
+  background-color: #bbb;
+}
+
+.formBtn:focus {
+  outline: none;
+}
+
+.form span {
+  display: inherit;
+  margin-bottom: 4vh;
+}
+
+.form form {
+    margin-bottom: 4vh;
+}
+
+.formBtn a{
+  color: black;
+  text-decoration: none !important;
+}
+
+.formBtn a:active {
+  color: black;
+}
+
+@media only screen and (min-width: 768px) {
+  .info {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .main {
+    width: 80%;
+  }
+  
+  .intro h2 {
+    width: 30%;
+  }
+} 
+
+@media only screen and (min-width: 1024px) {
+  .brand > img {
+      height: 75px;
+  }
+  
+  .alert {
+      font-size: 1.5rem;
+  }
+  
+  .close span {
+      font-size: 2rem;
+  }
+  
+  .info {
+    position: relative;
+    top: 50%;
+    transform: translateY(5%);
+  }
+  
+  .intro h2 {
+    font-size: 3rem;
+  }
+  
+  .main {
+    width: 70%;
+  }
+  
+  .formBtn {
+    font-size: 22px;
+    padding: 12px;
+  }
+  
+  .form span {
+    font-size: 1.5rem;
+  }
+  
+  .input {
+    height: 8vh;
+    font-size: 1.4rem;
+  }
+} 
+
+@media only screen and (min-width: 1400px) {
+  .brand > img {
+     height: 100px;
+  }
+  
+  .alert {
+      font-size: 2rem;
+  }
+  
+  .close span{
+      font-size: 3rem;
+  }
+  
+  .intro h2 {
+    font-size: 4rem;
+  }
+  
+  .input {
+    font-size: 2rem;
+  }
+  
+  .formBtn {
+    font-size: 30px;
+    padding: 16px;
+  }
+  
+  .form span {
+    font-size: 2rem;
+  }
+}
