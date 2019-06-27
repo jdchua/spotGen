@@ -4,15 +4,17 @@ var express       = require("express"),
 var bodyParser = require("body-parser");
 
 var scopes = ['user-read-private', 'user-read-email', "playlist-modify-public", "playlist-modify-private"],
-  redirectUri = 'https://singleplaylist-jeremiahchua.c9users.io/callback',
+//   redirectUri = 'https://singleplaylist-jeremiahchua.c9users.io/callback',
+  redirectUri = 'https://spotgen.herokuapp.com/callback',
   clientId = '2f611dfa341b4b1caab7acb66ed7f351',
   state = '123';
   
       
 var spotifyApi = new SpotifyWebApi({
   clientId: '2f611dfa341b4b1caab7acb66ed7f351',
-   clientSecret: '605457ee518d4220acaef7f428187c1e',
-  redirectUri: 'https://singleplaylist-jeremiahchua.c9users.io/callback',
+  clientSecret: '605457ee518d4220acaef7f428187c1e',
+//   redirectUri: 'https://singleplaylist-jeremiahchua.c9users.io/callback',
+  redirectUri: 'https://spotgen.herokuapp.com/callback',
 });
 
 app.use(bodyParser.urlencoded({extended: true}));
