@@ -111,6 +111,10 @@ input {
   color: black;
 }
 
+.formBtn a:hover {
+  color: black;
+}
+
 @media only screen and (min-width: 768px) {
   .info {
     width: 80%;
