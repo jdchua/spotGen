@@ -1,5 +1,5 @@
 # SpotGen
-<img src="http://u.cubeupload.com/jnike/spotGen.png">
+<img src="https://i.lensdump.com/i/ikiwL9.png">
 
 Web application that utilizes spotify's API in order to quickly and easily create a playlist with an artist's top tracks. User is able to add as many artists as they please to the playlist.
 
